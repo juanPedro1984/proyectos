@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class = "ion-text-center">pagina2</ion-title>
+    <ion-back-button slot= "start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+<h1 class = "ion-text-center">Lista de mutantes</h1>
+    <ion-list>
+
+      <ion-item *ngFor="let mutante of mutantes" (click) = "irPagina3( mutante )">
+        {{mutante.nombre}}
+      </ion-item>
+
+    </ion-list>
+<!-- 
+    <h1 class = "ion-text-center">Lista de mutantes con Html</h1>
+        <ion-list>
+
+          <ion-item *ngFor="let mutante of mutantes" [navPush] = "pagina3" [navParams] = "{mutante}">
+            {{mutante.nombre}}
+          </ion-item>
+
+        </ion-list> -->
+</ion-content>

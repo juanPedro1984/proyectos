@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class = "ion-text-center">{{nombre}}</ion-title>
+    <ion-back-button slot= "start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   <ion-item class = "ion-text-center">
+    {{poder}}
+   </ion-item>
+
+   <ion-button expand = "block" color = "primary" (click)="irAtras()" >ir atras</ion-button>
+
+   <ion-button expand = "block" color = "secondary" (click)="irAlRoot()">ir al root</ion-button>
+
+</ion-content>
