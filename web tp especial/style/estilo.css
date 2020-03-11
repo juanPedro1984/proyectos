@@ -1,0 +1,441 @@
+/* estilo general*/
+
+html{
+  font-family:sans-serif;
+}
+.inputCarga{
+  display: block;
+  margin: 5px;
+  width: 400px;
+  height: 25px;
+}
+.formCarga{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Navegador{
+  border-bottom: 7px solid orange;
+  background-color: black;
+  margin: 10px;
+}
+.nav-link, .nav-item{
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+}
+#dropdownMenuButton{
+  font-size: 25px;
+  background-color: black;
+}
+.nav-link:hover{
+  color: white;
+}
+#Cuerpo{
+  padding: 30px 35px 15px 35px;
+  background-color: #3e909d;
+  height: 100% auto;
+  font-size: 20px;
+  color: white;
+}
+.cuerpo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 100%;
+  background-color: lightgray;
+  margin: 1%;
+}
+#Redsocial{
+  width: 30px;
+  margin: 8px;
+}
+.footer{
+  display: block;
+  background-color: black;
+  bottom: 0;
+  font-size: 15px;
+  width: 98%;
+  height: 60px;
+  margin:10px;
+}
+/*fin estilo general*/
+/* comienzo estilo index */
+.tdJuego:hover{
+  text-decoration: none;
+}
+.tdJuego{
+  text-decoration: none;
+  color: white;
+}
+.row{
+  padding: 0 20px 0 30px;
+}
+#foto1, #fotodos{
+  height: 30%;
+}
+.btn, .delComent{
+  margin: 5px;
+  background-color: grey;
+  color: white;
+}
+.btnDet{
+  width: auto;
+  background-color: inherit;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.signIn{
+  width: 300px;
+  padding: 10px;
+}
+/*fin estilo index*/
+/* comienzo estilo admin*/
+.contForm{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.formulario{
+  display: inline-flex;
+  border: solid black 1px;
+  background-color: white;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-style: 'Comic Sans MS';
+}
+.buttons{
+  display: inline-flex;
+}
+.tablaJuegos{
+  border: solid 1px black;
+  background-color: white;
+  margin: 5px;
+  height: 1000px;
+  width: 850px;
+  overflow:scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.listaGen,.listaJuegos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listaGen{
+  width: 450px;
+}
+.parr{
+  display: inline;
+  width: 200px;
+  margin: 0;
+}
+.boton{
+  display: inline-flex;
+  flex-direction: row;
+  width: 100px;
+}
+.btnLista{
+  margin-right: 220px;
+}
+.genRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+}
+.tablaGen{
+  display: inline;
+  flex-direction: row;
+  border: solid 1px black;
+  background-color: white;
+  margin: 5px;
+  width: 420px;
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.items{
+  text-align: center;
+  margin: 10px;
+}
+.lista{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+/*fin estilo admin*/
+/* comienzo estilo edicion*/
+.formEdicion{
+  height: 500px;
+}
+.cuerpoEdicion{
+  margin: 0 ;
+  padding: 0;
+  width: 80%;
+  height: 80%;
+}
+.rowEdicion{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.editImg{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.editFig{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.contEditImg{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 750px;
+  flex-wrap: wrap;
+  background-color: rgba(115, 115, 115, 1);
+}
+.delBtn {
+	-moz-box-shadow: 3px 3px 0px -2px #8a2a21;
+	-webkit-box-shadow: 3px 3px 0px -2px #8a2a21;
+	box-shadow: 3px 3px 0px -2px #8a2a21;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+	background-color:#c62d1f;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:2px 4px;
+	text-decoration:none;
+	text-shadow:3px 2px 5px #810e05;
+  margin-top: 10px;
+}
+.delBtn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24437;
+}
+.delBtn:active {
+	position:relative;
+	top:1px;
+}
+
+/*fin estilo edicion*/
+/* comienzo estilo register*/
+.formRegistro{
+  display:flex;
+  justify-content: center;
+  background-color: white;
+  flex-direction: column;
+  border: solid 1px black;
+  width: 500px;
+  height: auto;
+  padding: 5px;
+  box-shadow: 3px 5px lightgray;
+  margin-bottom: 20px;
+}
+.cuerpoRegistro{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: lightgray;
+  margin: 1%;
+}
+.label{
+  margin-left: 5px;
+}
+/*fin estilo register*/
+/*comienzo estilo detalle*/
+.cuerpoDetalle{
+  margin: 30px 60px 20px 60px;
+  display: flex;
+  flex-direction: column;
+}
+.descripcion{
+  margin: 30px 0 20px 0;
+  border: solid 1px lightgrey;
+  padding: 20px;
+  font-size: 20px;
+}
+.info{
+  display: inline-flex;
+}
+.infoGame{
+  margin-right:10px;
+}
+.infoTitulo{
+  text-align: center;
+}
+.gameImg{
+  height: 480px;
+}
+.gameFig{
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+}
+.contImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: auto;
+}
+.comentarios{
+  width:90%;
+}
+.comentRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.comentCol{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.postComent{
+  background-color: #0f8f56;
+}
+.postComent {
+	-moz-box-shadow: 3px 4px 0px 0px #1564ad;
+	-webkit-box-shadow: 3px 4px 0px 0px #1564ad;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+	background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+	background-color:#79bbff;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	padding:16px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.postComent:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+	background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+	background-color:#378de5;
+}
+.postComent:active {
+	position:relative;
+	top:1px;
+}
+
+fieldset, label { margin: 0; padding: 0; }
+
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+ float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.listComent{
+  list-style-type: none;
+  background-color: white;
+  color: black;
+  width: 90%;
+}
+
+/*fin estilo detalle*/
+/* estilo adminComent*/
+
+.tablaComent,.tablaUser{
+  text-align: center;
+  border: solid black 2px;
+
+}
+
+.filaComent, .filaUser {
+background-color: white;
+border: solid black 1px;
+padding: 10px;
+}
+.filaComentHead, .filaUserHead{
+background-color: grey;
+border: solid black 1px;
+color: white;
+padding: 10px;
+
+}
+
+.opiniones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,24 @@
+<h5>Opiniones de los usuarios</h5>
+<div class="opiniones">
+  <table class="tablaComent">
+  <thead>
+    <td class="filaComentHead">Usuario</td>
+    <td class="filaComentHead">Juego</td>
+    <td class="filaComentHead">Comentario</td>
+    <td class="filaComentHead">Valoracion</td>
+    <td class="filaComentHead">Fecha</td>
+    <td class="filaComentHead">Seleccionar</td>
+  </thead>
+  {{#each opiniones}}
+  <tr>
+    <td class="filaComent">{{Usuario}}</td>
+    <td class="filaComent">{{Titulo}}</td>
+    <td class="filaComent">{{comentarios}}</td>
+    <td class="filaComent">{{Valoracion}}</td>
+    <td class="filaComent">{{Fecha}}</td>
+    <td class="filaComent"><input type="checkbox" class="radioComent" name="rbtn" value="{{id_Comentarios}}"></td>
+  </tr>
+  {{/each}}
+    </table>
+    <button type="submit" class="delComent "name="button" value="">Borrar</button>
+</div>
